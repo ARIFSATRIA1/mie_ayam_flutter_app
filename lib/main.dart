@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
@@ -80,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       namePlace: mieAyamItem.nameplace ?? "Unknown Place",
                       adress: mieAyamItem.adress ?? "Unknown Address",
                       city: mieAyamItem.city ?? "Unknown City",
-                      image: mieAyamItem.image ?? "default_image.png", // Replace with a valid default image path
+                      image: mieAyamItem.image ?? "default_image.png",
                       lat: mieAyamItem.lat ?? "0.0",
                       lon: mieAyamItem.lon ?? "0.0",
                     );
